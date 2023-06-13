@@ -1,3 +1,4 @@
+/* Generiche */
 body {
     background-color: #f6f8f9;
 }
@@ -9,29 +10,22 @@ header {
     margin: 0;
 }
 
-#ti-logo, #logo {
-    display: inline-block;  
-    line-height: 50%;
-    vertical-align: middle;
-}
-
-#logo {
-    padding-left: 10px;
-}
-
 a {
     text-decoration: none;
+    font-size: .75rem;
     color: white;
     padding: 5px;
     border-radius: 15px;
     background-color: #45abea;
 }
+
 main {
     margin: 50px auto;
     background-color:#ffffff;
     max-width: 1000px;
     border-radius: 15px;
 }
+
 aside {
     border-bottom: 2px solid #f6f8f9;
     padding: 20px 50px;
@@ -43,6 +37,38 @@ button {
     padding: 5px 10px;
 }
 
+span {
+    border: 1px solid #65c0a9;
+    border-radius: 50%;
+    color: #65c0a9;
+    padding: 2px;
+    font-size: .75rem;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 250%;
+}
+
+h3 {
+    margin:0;
+    line-height: 100%
+}
+
+/*UTILS*/
+
+/*HEADER*/
+#ti-logo, #logo {
+    display: inline-block;  
+    line-height: 50%;
+    vertical-align: middle;
+}
+
+#logo {
+    padding-left: 10px;
+}
+
+/*Bottoni*/
 #button_task {
     color: white;
     background-color: #47adf1;
@@ -53,24 +79,29 @@ button {
     background-color: white;
 }
 
-/* section {
-    padding-left: 50px;
-} */
-
+/*LISTE*/
 #last-section {
     padding-bottom: 20px;
 }
-span {
-    border: 1px solid green;
-    border-radius: 50%;
-    color: green;
-}
+/*LE X della check-list*/
 .out {
     color: red;
     border-color: red;
 }
+/*I COLORI DELLE ETICHETTE*/
 
-ul {
-    list-style-type: none;
-    line-height: 200%;
+.goals {
+    background-color: #9c72e4;
+}
+.recruting {
+    background-color:#64c0a9;
+}
+.mobile {
+    background-color:#f29e33;
+}
+.website {
+    background-color:#d863a1;
+}
+.sales {
+    background-color:#b0c926;
 }
