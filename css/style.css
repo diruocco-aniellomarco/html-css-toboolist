@@ -1,8 +1,12 @@
+body {
+    background-color: #f6f8f9;
+}
+
 header {
     height: 60px;
-    background-color: red;
+    background-color:#ffffff;
     line-height: 60px;
-    
+    margin: 0;
 }
 
 #ti-logo, #logo {
@@ -15,12 +19,52 @@ header {
     padding-left: 10px;
 }
 
-.container {
-    padding: 20px;
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+main {
     margin: 50px auto;
-    background-color: blue;
+    background-color:#ffffff;
     max-width: 1000px;
     border-radius: 15px;
 }
+aside {
+    border-bottom: 2px solid #f6f8f9;
+    padding: 20px 50px;
+}
 
+button {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px 10px;
+}
 
+#button_task {
+    color: white;
+    background-color: #47adf1;
+}
+
+#button_section {
+    color: grey;
+    background-color: white;
+}
+
+section {
+    padding-left: 50px;
+}
+
+#last-section {
+    padding-bottom: 20px;
+}
+span {
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+}
+.out {
+    color: red;
+    border-color: red;
+}
