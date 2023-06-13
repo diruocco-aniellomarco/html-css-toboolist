@@ -1,6 +1,6 @@
 /* Generiche */
 body {
-    background-color: #f6f8f9;
+    background-color: lightgrey;
 }
 
 header {
@@ -27,7 +27,7 @@ main {
 }
 
 aside {
-    border-bottom: 2px solid #f6f8f9;
+    border-bottom: 2px solid lightgrey;
     padding: 20px 50px;
 }
 
@@ -48,11 +48,6 @@ span {
 ul {
     list-style-type: none;
     line-height: 250%;
-}
-
-h3 {
-    margin:0;
-    line-height: 100%
 }
 
 /*UTILS*/
@@ -80,6 +75,12 @@ h3 {
 }
 
 /*LISTE*/
+.titoli {
+    font-weight: bold;
+    margin:0;
+    line-height: 100%
+}
+
 #last-section {
     padding-bottom: 20px;
 }
