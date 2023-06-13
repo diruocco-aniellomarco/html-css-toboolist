@@ -1,0 +1,25 @@
+header {
+    height: 60px;
+    background-color: red;
+    line-height: 60px;
+    
+}
+
+#logo {
+    padding-left: 10px;
+
+}
+
+#ti-logo, #logo {
+    display: inline-block;  
+    line-height: 50%;
+    vertical-align: middle;
+}
+
+.container {
+    padding: 20px;
+    margin: 50px;
+    background-color: blue;
+    max-width: 1000px;
+}
+
